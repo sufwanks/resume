@@ -1,0 +1,40 @@
+.progress-some{
+    background: red;
+    height: 20px;
+    width:  200px;
+
+}
+
+.progress-new{
+    background: #1c1c1c;
+    height: 20px;
+}
+
+.language{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    color: #1c1c1c;
+    text-transform: capitalize;
+}
+
+@media(max-width:500px){
+    .progress-some{
+        background: red;
+        height: 10px;
+        width:  150px;
+    
+    }
+    
+    .progress-new{
+        background: #1c1c1c;
+        height: 10px;
+    }
+    
+    .language{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: .8rem;
+        color: #1c1c1c;
+        text-transform: capitalize;
+    }
+}
+

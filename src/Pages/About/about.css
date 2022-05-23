@@ -1,0 +1,110 @@
+.about-me-section{
+  font-family: sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+.why-txt-sub{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: .8rem;
+  font-weight: 800;
+  opacity: .8;
+  text-transform: capitalize;
+  text-align: center;
+
+}
+
+.aboutme-inside{
+width: 70%;
+margin-inline: auto;
+
+}
+.lottie-img{
+  width: 300px;
+  height: 500px;
+}
+
+.some-text-about-me{
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  opacity: .8;
+  text-align: initial;
+}
+.tab{
+  border-radius: 20px;
+  background-color: #011a32;
+  color: white;
+}
+
+.few-highlights{
+  font-family: sans-serif;
+  padding-block: 12px;
+
+}
+
+.few-text{
+  font-family: "Open sans";
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: initial;
+
+}
+.few-lists{
+  font-family: "Open sans";
+  font-size: 1rem;
+  text-align: initial;
+
+}
+
+
+/* mobile responsive section */
+
+@media (max-width:500px) {
+  .about-me-text {
+    font-size: 1.5rem;
+}
+.why-txt-sub {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: .5rem;
+  font-weight: 800;
+  opacity: .8;
+  text-transform: capitalize;
+  text-align: center;
+}
+.some-text-about-me {
+  font-family: sans-serif;
+  font-size: .5rem;
+  font-weight: 800;
+  opacity: .8;
+  text-align: initial;
+}
+.lottie-img{
+  width: 150px;
+  height: 150px;
+}
+.few-text{
+  font-family: "Open sans";
+  font-size: .6rem;
+  font-weight: 800;
+  text-align: initial;
+
+}
+.few-lists{
+  font-family: "Open sans";
+  font-size: .5rem;
+  text-align: initial;
+
+}
+
+.few-highlights{
+  font-family: sans-serif;
+  padding-block: 1px;
+
+}
+
+}
+

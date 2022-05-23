@@ -1,0 +1,132 @@
+.resume-options-items{
+    width: 1%;
+    transition: all .3s ease-in-out;
+    padding-block: 24px;
+    padding-inline: 24px;
+    color: rgb(8, 5, 5);
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.resume-text {
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #1c1c1c;
+}
+
+.resume-text-sub{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8rem;
+    font-weight: 800;
+    opacity: .8;
+    text-transform: capitalize;
+    text-align: center;
+    color: #1c1c1c;
+  
+  }
+  .resume-left-section{
+      width: 30%;
+      margin-inline: auto;
+  }
+
+
+.resume-options-items:hover{
+    width: 100%;
+    background: linear-gradient(
+        -90deg,
+        var(--primary-app-color),
+        var(--secondary-app-color)
+    );
+    color: #fff;
+}
+
+.icons-span{
+    margin-block: 24px;
+    margin-inline: 26px;
+}
+
+.selected{
+    background: linear-gradient(
+        -45deg,
+        var(--primary-app-color),
+        var(--secondary-app-color)
+    );
+    width:100%;
+    color: #fff;
+
+}
+
+.bg-new{
+    background: linear-gradient(
+        -45deg,
+        var(--primary-app-color),
+        var(--secondary-app-color)
+    );
+}
+
+.resume-outer-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background:  #fff;
+    color: rgb(17, 16, 16);
+    clip-path: polygon(0 11%, 100% 0, 100% 100% 0 100%);
+}
+
+.resume-new-section{
+    background: #fff;
+    box-shadow: 10px 10px 31px 2px #1c1c1c;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+@media (max-width: 500px) {
+    .resume-text {
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #1c1c1c;
+    }
+    .resume-text-sub {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.7rem;
+        font-weight: 800;
+        opacity: .8;
+        text-transform: capitalize;
+        text-align: center;
+        color: #1c1c1c;
+    }
+    .resume-left-section{
+        width: 100%;
+        margin-inline: auto;
+    }
+    .resume-new-section {
+        background: #fff;
+        box-shadow: -11px 16px 35px 6px #1c1c1c;
+        margin-top: 17px;
+        border-radius: 15px;
+        height: 70%;
+    }
+    .icons-span {
+        margin-block: 12px;
+        margin-inline: 18px;
+    }
+    .resume-options-items {
+        padding-block: 14px;
+        padding-inline: 40px;
+        font-size: 13px;
+    }
+    .university-name {
+        font-family: sans-serif;
+        color: var(--primary-app-color);
+        font-size: .6rem;
+        font-weight: 800;
+    }
+}
